@@ -1,0 +1,25 @@
+*{
+@font-face {
+    font-family: 'schwifty';
+    src: url(  );
+}
+}
+ul {
+    list-style-type:none;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2%;
+    font-size: 100%;
+    color: white;
+  }
+#bar-form{
+    padding: 10px;
+    font-size: 55%;
+    border-radius: 30px;
+    border: none;
+    background-color: white;
+}
+ header{
+    background-image: url(Images/background.png);
+    padding:10px 15px ;
+ }
