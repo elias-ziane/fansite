@@ -12,6 +12,10 @@
     font-family: Geologica;
 }
 
+nav ul li a:hover {
+    background-color: #C8B9B7; /* Couleur de fond légèrement foncée */
+    padding: 10px;
+}
 .header-form {
     border-radius: 130px;
 }
@@ -21,7 +25,9 @@ body {
 }
 
 a{
-    list-style: non;
+    text-decoration: none;
+    list-style-type: none;
+    color: white;
 }
 
 ul {
