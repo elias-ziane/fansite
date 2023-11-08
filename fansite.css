@@ -1,25 +1,315 @@
-*{
 @font-face {
-    font-family: 'schwifty';
-    src: url(  );
+    font-family: 'roboto';
+    font-family: 'Agbalumo';
+    font-family: 'geologica';
+    src: url("fonts/Geologica-VariableFont_CRSV\,SHRP\,slnt\,wght.ttf");
+    src: url("fonts/Agbalumo-Regular.ttf") format("truetype");
+    src: url("fonts/RobotoSlab-VariableFont_wght.ttf") format("truetype");
+    ;
 }
+
+* {
+    font-family: Geologica;
 }
+
+.header-form {
+    border-radius: 130px;
+}
+
+body {
+    background: url(Images/background-Real.jpg);
+}
+
+a{
+    list-style: non;
+}
+
 ul {
-    list-style-type:none;
+    list-style-type: none;
     display: flex;
     justify-content: space-around;
     margin-top: 2%;
-    font-size: 100%;
+    font-size: 220%;
     color: white;
-  }
-#bar-form{
+}
+
+#bar-form {
     padding: 10px;
     font-size: 55%;
     border-radius: 30px;
     border: none;
     background-color: white;
 }
- header{
+
+header {
     background-image: url(Images/background.png);
-    padding:10px 15px ;
- }
+    padding: 5px 10px;
+    font-family: Agbalumo;
+}
+
+
+.logo-left1 {
+    float: left;
+    margin-top: 5%;
+}
+
+.logo-titre {
+    display: flex;
+    justify-content: center;
+    padding-top: 4%;
+}
+
+.logo-right1 {
+    float: right;
+    margin-top: 5%;
+    margin-left: 10%;
+}
+
+.logo-right2 {
+    margin-left: 15%;
+    padding-top: 50%;
+}
+
+.logo-left {
+    display: grid;
+    width: 20%;
+    margin-right: 10%;
+}
+
+.logo-right {
+    display: grid;
+    width: 20%;
+    margin-right: 10%;
+}
+
+.RetM {
+    width: 150%;
+    height: 60%;
+}
+
+
+.description {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5%;
+}
+
+#description {
+    display: flex;
+    text-align: center;
+    font-size: 150%;
+    max-width: 50%;
+    font-style: bold;
+    margin-top: 2%;
+    color: aliceblue;
+}
+
+.saison {
+    display: grid;
+    justify-content: space-around;
+    float: left;
+}
+
+h2 {
+    color: aliceblue;
+    font-size: 150%;
+}
+
+.bloc1 {
+    display: flex;
+    background-color: #BAEBE5;
+    border: solid #7dfe71 5px;
+    border-radius: 1px;
+    margin-bottom: 5%;
+}
+
+.saison1 {
+    height: 240px;
+    width: 204px;
+    padding: 10px 10px;
+}
+
+.psaison1 {
+    height: 200px;
+    width: 60%;
+    padding: auto;
+    line-height: 200%;
+    font-size: 100%;
+    margin-left: 3%;
+}
+
+.bloc2 {
+    display: flex;
+    background-color: #F4F482;
+    border: solid #7dfe71 5px;
+    border-radius: 1px;
+    margin-bottom: 5%;
+}
+
+.saison2 {
+    height: 240px;
+    width: 204px;
+    padding: 10px 10px;
+}
+
+.psaison2 {
+    height: 200px;
+    width: 60%;
+    padding: auto;
+    line-height: 200%;
+    font-size: 100%;
+    margin-left: 3%;
+}
+
+.bloc3 {
+    display: flex;
+    background-color: #BAEBE5;
+    border: solid #7dfe71 5px;
+    border-radius: 1px;
+    margin-bottom: 5%;
+}
+
+.saison3 {
+    height: 240px;
+    width: 204px;
+    padding: 10px 10px;
+}
+
+.psaison3 {
+    height: 200px;
+    width: 60%;
+    padding: auto;
+    line-height: 200%;
+    font-size: 100%;
+    margin-left: 3%;
+}
+
+.bloc4 {
+    display: flex;
+    background-color: #F4F482;
+    border: solid #7dfe71 5px;
+    border-radius: 1px;
+    margin-bottom: 5%;
+}
+
+.saison4 {
+    height: 240px;
+    width: 204px;
+    padding: 10px 10px;
+}
+
+.psaison4 {
+    height: 200px;
+    width: 60%;
+    padding: auto;
+    line-height: 200%;
+    font-size: 100%;
+    margin-left: 3%;
+}
+
+.bloc5 {
+    display: flex;
+    background-color: #BAEBE5;
+    border: solid #7dfe71 5px;
+    border-radius: 1px;
+    margin-bottom: 5%;
+}
+
+.saison5 {
+    height: 240px;
+    width: 204px;
+    padding: 10px 10px;
+}
+
+.psaison5 {
+    height: 200px;
+    width: 60%;
+    padding: auto;
+    line-height: 200%;
+    font-size: 100%;
+    margin-left: 3%;
+}
+
+.bloc6 {
+    display: flex;
+    background-color: #F4F482;
+    border: solid #7dfe71 5px;
+    border-radius: 1px;
+    margin-bottom: 5%;
+}
+
+.saison6 {
+    height: 240px;
+    width: 204px;
+    padding: 10px 10px;
+}
+
+.psaison6 {
+    height: 200px;
+    width: 60%;
+    padding: auto;
+    line-height: 200%;
+    font-size: 100%;
+    margin-left: 3%;
+
+}
+
+.titre_second {
+    height: 50%;
+    width: 60%;
+}
+
+.entete {
+    display: flex;
+}
+
+
+h1 {
+    color: aliceblue;
+    text-align: center;
+    font-size: 250%;
+
+}
+
+h3 {
+    margin-left: 10%;
+    font-size: 150%;
+    color: aliceblue;
+}
+
+.saison1-titre {
+    display: flex;
+    justify-content: center;
+    margin-top: 3%;
+}
+
+.saison1-titre-image {
+    height: 20%;
+    width: 20%;
+    border: solid #7dfe71 2px;
+}
+
+.bloc-episode {
+    display: flex;
+    justify-content: space-around;
+    background-color: #BAEBE5;
+    border: solid #7dfe71 2px;
+    border-radius: 1px;
+    margin-bottom: 5%;
+    margin-left: 8%;
+    width: 80%;
+    height: 100%;
+    padding: 10px;
+}
+
+.image-episode {
+    height: 100%;
+    width: 100%;
+    border: solid black 1px;
+}
+
+.img-portal {
+    height: 90%;
+    width: 90%;
+    margin-top: 10%;
+}
